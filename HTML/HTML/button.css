@@ -1,0 +1,77 @@
+.subscribe-button
+{
+    /* background-color:red;  */
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+.subscribe-button:hover
+{
+    opacity: 0.7;
+}
+.subscribe-button:active
+{
+    opacity: 0.5;
+}
+.join-button
+{
+    background-color: transparent;
+    color: rgb(56, 125, 210);
+    /* color: #50a2dd; */
+    border-color: rgb(56, 125, 210);
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color , color 0.5s;
+    /* padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    padding: 9px 15px;
+    margin: 10px;
+}
+.join-button:hover
+{
+    background-color: rgb(56, 125, 210);
+    color: white;
+}
+.join-button:active
+{
+    opacity: 0.5;
+}
+.tweet-button
+{
+    background-color: rgb(100, 158, 206);
+    border: none;
+    height: 35px;
+    width: 70px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.tweet-button:hover
+{
+    box-shadow: 5px 5px 10px rgb(0 0 0/15%);
+}
+.tweet-button:active
+{
+    transform: scale(0.98);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+html
+{
+    /* background: linear-gradient(120deg,lightblue, lightpink, lightyellow); */
+    background: radial-gradient(white, pink);
+    background-repeat:no-repeat;
+    height: 100%;
+}

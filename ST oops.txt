@@ -1,0 +1,113 @@
+OOPS: Object Oriented Programming
+
+Class : 
+=>Collection of Data members ans member functions.
+=>blue print of object.
+=>total description of behvoiur about it's object.
+=>doesn't occupie any memory.
+
+Object :
+=>Instance of class.
+=>Actual / real world object.
+=>it will actually proviode some functionality or do certain behavoiur.
+=>it will occupie some memory in memory space.
+
+Example:
+class Vehical
+data member :
+-no_seat
+-no_wheels
+-color
+
+member function : 
+-start()
+-break()
+-mover_around()
+
+
+object:
+vehical car,bike,scooty;
+
+car.no_seat = 2/4/5/8/13
+car.no_wheels = 4
+car.color = any;
+car.start();
+car.break();
+car.move_around();
+
+bike.no_seat = 2
+bike.no_wheels = 2
+bike.color = any;
+bike.start();
+bike.break();
+bike.move_around();
+
+
+
+
+Encapsulation : Wrapping of data into single unit.
+
+Abstraction : Showing only what is essential.
+
+Polymorphisam : 
+=>poly = many, morph = forms
+=>one name having many forms.
+
+2 Types of polymorphisam:
+-Method overloading :
+->same class having same name methods with different number of parameters.
+-method overriding :
+->different class having same name methods with same number of parameters.
+
+
+Inheritance : inheriting class properties into another class.
+
+5 types:
+1. Single:
+	A	//parent class
+	|
+	V
+	B	//child class
+
+2. multiple:
+	A		B
+	|		|
+	-----------------
+		|
+		v
+		C
+
+
+3. mutilevel
+
+	A	//grand parent
+	|
+	V
+	B	//parent
+	|
+	V
+	C	//child
+
+
+4. herarchical:
+
+		A
+		|
+	-----------------
+	|		|
+	V		V
+	B		C
+
+5. hybrid:
+
+		A
+		|
+	-----------------
+	|		|
+	v		V
+	B		C
+	|		|
+	-----------------
+		|
+		V
+		D

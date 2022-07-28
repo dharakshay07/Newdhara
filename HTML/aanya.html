@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+ html
+      {
+          background: linear-gradient(rgb(25, 170, 219), rgb(147, 45, 147));
+          height: 100%;
+      }  
+      form
+      {
+            top: 4%;
+            margin-top: 4%;
+            margin-left: 25%;
+            margin-right: 25%;
+            padding: 7px;
+            background-color: white;
+            border :none;
+            border-radius:7px;
+            border: 20px solid white;
+      }
+      .heading
+       {
+           text-align: left;
+           font-size: 30px;
+           color: rgb(21, 21, 21);
+           text-decoration:underline;
+           padding-left: 10px;
+           margin-bottom: 0px;
+       }
+        label
+        {
+       
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+            padding: 5px 5px;
+            margin-top: 10px;
+        }
+      
+       .right input{
+            padding: 5px 5px;
+              width: 250px;
+              height: 30px;
+              border-radius: 5px;
+              border: 1px solid gray;
+              font-size: 17px;
+              box-shadow: 1px 1px 2px rgb(170, 167, 167);
+        }
+        .left input
+        {
+            padding: 5px 5px;
+              width: 250px;
+              height: 30px;
+              border-radius: 5px;
+              border: 1px solid gray;
+              font-size: 17px;
+              box-shadow: 1px 1px 2px rgb(170, 167, 167);
+        }
+        input:hover
+        {
+
+            cursor: pointer;
+            
+        }
+        
+        .left
+        {
+            width: 50%;
+            margin: 10px 10px;
+            display: inline-block;
+            padding-inline: 2px;
+        }
+        .right
+        {       
+           padding-inline: 2px;
+            display: inline-block;
+        }
+    .l
+       {
+         padding: 5px 5px;
+        
+        margin-top: 10px;  
+       }
+       .fl
+       {
+        padding: 5px 5px;    
+       }
+       .email
+       {
+           margin-top: 10px;
+        padding: 5px 5px;
+       }
+       .em
+       {
+        
+
+        padding: 5px 5px;
+       }
+       .pwd
+       {
+           margin-top: 10px;
+        padding: 5px 5px;
+       }
+       .p
+       {
+          padding: 5px 5px;
+       }
+       .u
+       {
+           padding: 5px 5px; 
+           margin-top: 50px;
+       }
+       .us
+       {
+           padding: 5px 5px;
+       }
+       .cp
+       {
+
+           padding: 5px 5px; 
+           margin-top: 10px;
+       }
+       .ci
+       {
+           padding: 5px 5px;
+       }
+       .ph
+       {
+           padding: 5px 5px; 
+           margin-top: 10px;
+       }
+       .pn
+       {
+           padding: 5px 5px;
+       }
+       
+       .gen
+       {
+           font-size: 18px;
+           font-weight: 600;      
+       }
+       .g
+       {
+           margin: 15px;;
+       }
+       .g
+       {
+           display: inline;
+           margin: 15px;
+           font-size: 15px;
+           font-weight: 700;
+           color: green;
+           padding-block: 30px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+       }
+       .female
+       {
+           padding-left: 130px;
+           padding-right: 130px;
+       }
+       button
+       {
+             color: white;
+             border: none;
+             border-radius: 5px;
+             background-color: linear ;
+             padding: 10px 250px;
+              margin: 20px;
+             font-size: 20px;
+             font-weight: 500;
+             font-family: Arial, Helvetica, sans-serif;
+
+       }
+       button:hover
+       {
+           box-shadow: 1px 1px 5px gray;
+       }
+       button:active
+       {
+           transform: scale(0.99);
+       }
+    </style>
+</style>
+<body>
+  <h4>Registration</h4>
+  <div class="left">
+    <div>        
+          <div class="l">
+             <label for="full name"> Full Name</label>
+          </div>
+          <div class="fl">
+              <input type="text" placeholder="Enter your Name">
+          </div>
+          <div class="email">
+            <div class="e">
+                <label for="email"> Email</label>
+            </div>
+            <div class="em">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <div class="pwd">
+              <div class="p">
+                 <label for="password"> Password</label>
+              </div>
+              <div class="p">
+                  <input type="password" placeholder="Enter your password">
+              </div>
+          </div>
+  <div class="right">
+    <div class="u">
+      <div class="us">
+          <label for="user name"> User Name</label>
+       </div>
+       <div class="us">
+           <input type="text" placeholder="Enter your Username">
+       </div>
+      
+      <div class="ph">
+       <div class="pn">
+           <label for="phone number"> Phone Number</label>
+       </div>
+       <div class="pn">
+           <input type="tel" placeholder="Enter your Number">
+       </div>
+       </div>
+
+       <div class="cp">
+       <div class="ci">
+          <label for="">Confirm Password</label>
+       </div>
+       <div class="ci">
+           <input type="password" placeholder="Confirm Password">
+       </div>
+</div>
+<div class="gen">
+  <div class="g">
+      <label for="gender"> Gender</label>
+  </div>  
+<div class="g">
+  <input type="radio" name="gender">Male
+ <span class="female"><input type="radio" name="gender" id="">Female</span>
+  <input type="radio" name="gender" id="">Prefer not to say
+</div>
+</body>
+</html>

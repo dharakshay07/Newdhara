@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+ <html>
+
+ <head>
+  <title>dhara</title>
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+ </head>
+ <style>
+     *
+     {
+         margin: 0px;
+         padding: 0px;     
+     }
+     main
+     {
+         width: 75%;
+         margin: 50px auto;
+         border: 1px solid brown;
+         display: grid;
+         grid-template-columns: repeat(3,1fr) 150px;
+         grid-template-rows: 70px 100px 250px 70px;
+         grid-gap: 20px;
+         text-align: center;
+         color: white;
+         font-size: 25px;
+         
+     }
+     .div1{background-color: red; grid-column: 1/-1;}
+     .div2{background-color: burlywood;}
+     .div3{background-color: purple;}
+     .div4{background-color: blueviolet;}
+     .div5{background-color: pink; grid-row: 2/4; grid-column: 4/5;}
+     .div6{background-color: lightseagreen; grid-column: 1/4;}
+     .div7{background-color: black; grid-column: 1/-1;}
+     
+ </style>
+ <body>
+
+ <main>
+  <div class="div1"> header  </div>
+  <div class="div2"> box1 </div>
+  <div class="div3"> box2 </div>
+  <div class="div4"> box3 </div>
+  <div class="div5"> sidebar </div>
+  <div class="div6"> main content </div>
+  <div class="div7">footer</div>
+ </main>
+
+ </body>
+ </html> 
+
+

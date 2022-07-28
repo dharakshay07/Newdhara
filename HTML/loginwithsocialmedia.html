@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url(dhoni.webp);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main
+        {
+            background-color: grey;
+            margin: 25%;
+        }
+        h2
+        {
+            text-align: center;
+            padding-top: 25px;
+        }
+        .div1
+        {
+            display: inline-block;
+            width:45%;
+            margin-left: 4%;
+            text-align: center;
+        }
+        .div2
+        {
+            display: inline-block;
+            width:45%;
+            margin-right: 4%;
+            text-align: center;
+        }
+        button
+        {
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 220px;
+            margin: 10px;
+        }
+        .fb
+        {
+            background-color: rgb(30, 30, 112);
+        }
+        .tw
+        {
+            background-color: rgb(77, 157, 223);
+        }
+        .google
+        {
+            background-color: red;
+        }
+        .log
+        {
+            background-color: rgb(41, 94, 41);
+        }
+        input
+        {
+            width: 200px;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        .su,.fp
+        {
+            display: inline-block;
+            width: 49%;
+            text-align: center;
+            color: white;
+        }
+        .div3
+        {
+            background-color: rgb(89, 89, 221);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <h2>Login Form</h2>
+            <div class="div1">
+                <div><button class="fb">Facebook</button></div>
+                <div><button class="tw">Twitter</button></div>
+                <div><button class="google">Google+</button></div>                
+            </div>
+            <div class="div2">
+                <input type="text" name="uname" placeholder="Username"> <br>
+                <input type="password" name="pwd" placeholder="Password"> <br>
+                <button class="log">Login</button>
+            </div>
+            <div class="div3">
+                <div class="su"> <p>SignUp</p> </div>
+                <div class="fp"> <p>Forgot Password?</p></div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

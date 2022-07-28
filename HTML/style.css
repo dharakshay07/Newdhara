@@ -1,0 +1,8 @@
+p
+{
+	background-color: tomato;
+}
+p:hover
+{
+	background-color: yellow;
+}

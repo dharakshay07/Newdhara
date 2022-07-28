@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .main
+    {
+        display: inline-flex;
+       
+    }
+    .mainlist
+    {
+        padding: 10px;
+    }
+    .sublist
+    {
+        visibility: hidden;
+    }
+    .mainlist:hover .sublist
+    {
+        visibility: visible;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+    <div class="mainlist">Home</div>
+    <div class="mainlist">Services
+
+        <div class="sublist">A</div>
+        <div class="sublist">B</div>
+        <div class="sublist">C</div>    
+    </div>
+    </div>
+</body>
+</html>
